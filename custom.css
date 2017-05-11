@@ -30,7 +30,7 @@ fh {
     height: 100%;
 }
 #landing {
-    background: url('img/misty.jpg') center no-repeat fixed;
+    background: url('img/misty.png') center no-repeat fixed;
     background-size: cover;
     text-align: center;
 }
