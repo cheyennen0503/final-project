@@ -15,11 +15,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="nav.css">
+    <script src="script.js"></script>
 
 </head>
 
 <body>
-     <div class="fw fh" id="landing">
+    <div class="fw fh" id="landing">
         <div class="text-center vert-center">
             <h1 class="text-center">The Life of a Dancer</h1>
             <h2 class="text-center">"Save your tears for the stage"</h2>
@@ -36,88 +37,171 @@
 
         </div>
     </div>
-<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
-    <div class="container-fluid">
-        <div class="navbar-header"><a class="navbar-brand" href="#"><img src= "img/logo.png" class="img-responsive" alt="Responsive image"></a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+    <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-responsive" alt="Responsive image"></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-menubuilder">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="/">Home</a>
+                    </li>
+                    <li><a href="/history">History</a>
+                    </li>
+                    <li><a href="/programs">Programs</a>
+                    </li>
+                    <li><a href="/about-dancers">About Dancers</a>
+                    </li>
+                    <li><a href="/gallery">Gallery </a>
+                    </li>
+                    <li><a href="/contact">Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div><br><br>
+         <div class="jumbotron">
+        <div id="home">
         </div>
-        <div class="collapse navbar-collapse navbar-menubuilder">
-            <ul class="nav navbar-nav navbar-left">
-                <li><a href="/">Home</a>
-                </li>
-                <li><a href="/history">History</a>
-                </li>
-                <li><a href="/programs">Programs</a>
-                </li>
-                <li><a href="/about-dancers">About Dancers</a>
-                </li>
-                <li><a href="/contact">Contact </a>
-                </li>
-            </ul>
-        </div>
+        <h1>Home<br></h1>
+        <h2><i>Welcome to the homepage of life of a dancer!</i><br></h2>
+        
+        <h2><i>Here, I hope you take away a feel of what it is like to be a dancer.</i><br></h2>
+       
     </div>
-    <div id= "info">
+    <div class="jumbotron">
+        <div id="history">
+        </div>
+        <h1>History<br></h1>
+        <h2>Dance is a large part of my life. When I was about 3-4 years old, My mother put me into the first steps program in The Ailey School. Since then, I have been training with Alvin Ailey and I am currently in their junior division program in Level 5. For the past 4 summers, I have been dancing with  the Joffrey and Ailey schools. These two schools are very different experiences. Each of them have their own history and feel one must experience to understand. I have been accepted into several programs such as the Joffrey trainee program, Earl Mosley's institute of the Arts summer intensive, and many other Joffrey summer programs such as their ballet program and their pre-professional program. I have also gotten a partial scholarship into the Joffrey jazz and contemporary program. I also received a full scholarship Alvin Ailey professional division program which I am most proud about. 
+<br></h2>
+        
+        <h2><i>Here, I hope you take away a feel of what it is like to be a dancer.</i><br></h2>
+       
+    </div>
+        
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Ailey School
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  First Steps and Junior Division 
+</a>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  Junior and Proffesional Division Summer Intensives
+</button>
+<div class="collapse" id="collapseExample">
+  <div class="well">
+    ..
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Ailey Extension
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Joffrey Summer Intensive
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div id="info">
             <h1>Four things you need to know about dancers</h1>
             <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <h1><i>Determination</i></h1>
-                <p> Dancers will do anything to get where we need to go to succeed and be “satisfied”. They are determined people. We are people who never give up. There is no such thing as perfect in our vocabulary. There’s always room for improvement. We always want to better ourselves to be the best.
-</p>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <h1><i>Strength</i></h1>
-                <p> Dancers are one of the strongest athletes there are and yes, we are athletes. Dancers do twice as much as any other athlete. We condition, have a class to a few classes, stretch, rehearsal, and a show all in one day. When it’s performance season, sometimes 6 days out of the week. A lot of dancers have a 10 hour day and there is never an off season. Dancers are always dancing no matter what. 
-</p>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-               <h1><i>Emotion</i></h1>
-               <p>Dancers are emotional wrecks, the stereotype is true. When audition season comes around, tensions rise, friendships end, the focus is all to dance. We all want to get a lead role or just be in the dance in general. Auditions are stressful and it can be even more stressful when you want it so bad but you did not get the part. It makes us feel like we are not good enough. 
-</p>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <h1><i>Family</i></h1>
-                <p>Dance is what you make of it. Depending on your enviornment, you create a family. Dancers connect with eachother in a way no ordinary person would understand. Dancers understand the struggle and what we are fighting for. No matter how bloody, nasty, violent, cruel, or devious things may get, there is plenty of love to go around for people who have the same common intrest as you.</p>
-            </div>
-        </div>
-        </div>
-         <div id="gallery">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="img/kylie.jpg" alt="Intro picture">
-                        </div>
-                        <div class="item">
-                            <img src="img/ingrid.jpg" alt="gallery picture">
-                        </div>
-                        <div class="item">
-                            <img src="img/michaela.jpg" alt="gallery picture">
-                        </div>
-                        
-                    </div>
-                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h1><i>Determination</i></h1>
+                    <p> Dancers will do anything to get where we need to go to succeed and be “satisfied”. They are determined people. We are people who never give up. There is no such thing as perfect in our vocabulary. There’s always room for improvement.
+                        We always want to better ourselves to be the best.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h1><i>Strength</i></h1>
+                    <p> Dancers are one of the strongest athletes there are and yes, we are athletes. Dancers do twice as much as any other athlete. We condition, have a class to a few classes, stretch, rehearsal, and a show all in one day. When it’s performance
+                        season, sometimes 6 days out of the week. A lot of dancers have a 10 hour day and there is never an off season. Dancers are always dancing no matter what.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h1><i>Emotion</i></h1>
+                    <p>Dancers are emotional wrecks, the stereotype is true. When audition season comes around, tensions rise, friendships end, the focus is all to dance. We all want to get a lead role or just be in the dance in general. Auditions are stressful
+                        and it can be even more stressful when you want it so bad but you did not get the part. It makes us feel like we are not good enough.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h1><i>Family</i></h1>
+                    <p>Dance is what you make of it. Depending on your enviornment, you create a family. Dancers connect with eachother in a way no ordinary person would understand. Dancers understand the struggle and what we are fighting for. No matter
+                        how bloody, nasty, violent, cruel, or devious things may get, there is plenty of love to go around for people who have the same common intrest as you.</p>
                 </div>
             </div>
         </div>
-    <div class ="jumbotron">
-<div id ="contact">
+        <div id="gallery">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/kylie.jpg" alt="Intro picture">
+                    </div>
+                    <div class="item">
+                        <img src="img/ingrid.jpg" alt="gallery picture">
+                    </div>
+                    <div class="item">
+                        <img src="img/michaela.jpg" alt="gallery picture">
+                    </div>
+
+                </div>
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
     </div>
-    <h2>Contact<br></h2>
-<h2><i>Email:</i><br></h2>
-<h3>cheyennenicaisse@gmail.com<br></h3>
-<h2><i>Phone:</i><br></h2> <h3>(718) 360-6914</h3>
-</div>
-     <div class="footer text-center">
+    <div class="jumbotron">
+        <div id="contact">
+        </div>
+        <h1>Contact<br></h1>
+        <h2><i>Email:</i><br></h2>
+        <h3>cheyennenicaisse@gmail.com<br></h3>
+        <h2><i>Phone:</i><br></h2>
+        <h3>(718) 360-6914</h3>
+    </div>
+    <div class="footer text-center">
         <h3>Copyright &copy; 2017 &nbsp; | &nbsp; <strong>Life of a Dancer</strong></h3>
     </div>
 </body>
